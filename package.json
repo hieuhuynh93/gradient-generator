@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "PUBLIC_URL=\"/gradient-generator/\" SKIP_PREFLIGHT_CHECK=true vite build",
-    "postbuild": "rm -rf ./public/gradient-generator && mv dist ./public/gradient-generator",
     "preview": "vite preview"
   },
   "dependencies": {
