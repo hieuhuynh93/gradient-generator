@@ -40,7 +40,7 @@
                         </div>
 
                         <div v-show="active == 'text'" class="w-full flex items-center p-6 bg-gray-50 rounded-xl h-72 md:h-96 xl:h-[28rem]">
-                            <h2 v-text="text" class="mx-auto text-2xl font-bold break-words sm:text-3xl md:text-4xl truncate" :class="classes()"> </h2>
+                            <h2 v-text="text" class="mx-auto text-2xl font-bold break-words truncate sm:text-3xl md:text-4xl" :class="classes()"> </h2>
                         </div>
 
                         <button @click="randomGradient" class="flex items-center mx-auto mt-4 space-x-3 font-semibold text-gray-500 transition-colors duration-300 hover:text-indigo-500 focus:outline-none">
@@ -150,7 +150,7 @@ export default {
             viaActive: false,
             active: 'background',
             isCopy: false,
-            text: 'Awesome Gradient',
+            text: 'Hieu Huynh',
             direction: 'bg-gradient-to-r',
             from: 'from-violet-600',
             via: 'via-violet-600',
